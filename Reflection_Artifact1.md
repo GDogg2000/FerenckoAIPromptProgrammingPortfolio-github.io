@@ -83,7 +83,29 @@ I created a Github pages project using the name:  `FerenckoAIPromptProgrammingPo
 ## Creating the Website Using Claude AI
 
 **Prompt:**
+I would like you to help be build a website using Github pages.  I've already got github pages set-up, I just want help creating the website.  The website is a simple static website that is a programming portfolio.  The page should include:
+1)  A few sentence about myself, what I am interested in building, etc.  You can just create an are for this with some place-holder text that I will fill in later.
+2)  There should be 5 project cards.  One card for each programming project.  The first programming project is this website that we are building.  For projects 2 through 5, just create cards with place-holder information.
+3)  Each card should have a title, a link to the artifact, and an area for a short reflection (a few sentences on how it went, what I learned, etc.)
+4)  If it helps you, each of the programming projects is one where I am prompting AI to do the coding, and I am just going in afterwards and making edits, making things work, and reprompting if nececearry.
+5)  Here is the url to what I have so far:  https://gdogg2000.github.io/FerenckoAIPromptProgrammingPortfolio-github.io/
 
 **Response:**
+I built the portfolio as a single `index.html` file with no build step. It has an About me section, a featured card for this website, and four placeholder cards for projects 2 through 5. I haven't loaded it in a browser, so check it once it's live. I assumed a layout and style, so tell me if you'd like something different.
+
+**To put it on your site**
+1. Your live page currently looks like a Jekyll default, probably an `index.md` with a title and a heading. Delete `index.md` (or replace it) so it doesn't conflict with the new file.
+2. Upload `index.html` to the root of your repo, commit, and wait a minute or two for GitHub Pages to rebuild.
+
+**To fill it in**
+- Each section is labeled with an HTML comment such as `<!-- ===== ABOUT ME ===== -->`, so you can search for "Placeholder" to find all the text you need to replace.
+- For projects 2 through 5, change the title, the one-line description, the `href="#"` link, and the reflection text.
+- Project 1 already links to your current site URL. You only need to write its reflection.
+
+The page adapts to phone and desktop screens and follows the viewer's light or dark mode setting.
+
+Once you have real content, I can help add screenshots to the cards, a GitHub or LinkedIn link, or more project cards.
 
 **Result:**
+I copied the .html source code that was created into my repo.  It created a basic site that looked pretty good, albeit a little boring.  I will go and try to pizzazz it up a little bit.  I then went into the .html source code and edited the link for artifact 1 so that it points to my github repo.
+
