@@ -82,6 +82,8 @@ I created a Github pages project using the name:  `FerenckoAIPromptProgrammingPo
 
 ## Creating the Website Using Claude AI
 
+### Step #1:
+
 **Prompt:**
 I would like you to help be build a website using Github pages.  I've already got github pages set-up, I just want help creating the website.  The website is a simple static website that is a programming portfolio.  The page should include:
 1)  A few sentence about myself, what I am interested in building, etc.  You can just create an are for this with some place-holder text that I will fill in later.
@@ -108,4 +110,26 @@ Once you have real content, I can help add screenshots to the cards, a GitHub or
 
 **Result:**
 I copied the .html source code that was created into my repo.  It created a basic site that looked pretty good, albeit a little boring.  I will go and try to pizzazz it up a little bit.  I then went into the .html source code and edited the link for artifact 1 so that it points to my github repo.
+
+## Step #2:
+
+**Prompt:** 
+That looks great.  I made one minor change -- for project 1, I changed it so the link brings you to the github repo instead of to the website.  Now, I'd like it if you could take what is there and make it look a little more exciting.  Here is a link to the page as it currently is:  https://gdogg2000.github.io/FerenckoAIPromptProgrammingPortfolio-github.io/
+
+**Response:**
+
+I've redesigned the page with the same structure and a bolder look. I haven't opened it in a browser, so check it once it's live.
+
+- **Hero:** There's a large "Greg Ferencko" headline and a small terminal window beside it. When the page loads, the terminal types out "Build me a portfolio website." and then shows three lines: AI wrote the draft, you edited it, and you re-prompted until it worked. That animation is the only automatic motion, and it's turned off for visitors who have reduced motion set.
+- **Colors:** The dark purple background replaces the plain light one, and each project card has its own color (coral, cyan, mint, pink, yellow).
+- **Cards:** They have bold outlines with offset shadows and lift slightly when you hover over them. The project 1 card is full width and has a "this site" badge.
+- **About me:** It's now a bright panel, so it stands out against the dark background.
+
+One thing to check: the page I fetched still showed the original "Welcome to My Website" text, so I couldn't see your edit. I set the project 1 link to `https://github.com/gdogg2000/FerenckoAIPromptProgrammingPortfolio-github.io`, which is my guess at your repo URL. Please replace it with the correct one, or paste your updated link and I'll fix it.
+
+Upload this `index.html` over your current one. If you'd like a different mood, such as lighter, more minimal, or a different color scheme, I can adjust it.
+
+
+**Result:**
+I really liked the look of the webpage, although some of the auto-generated text was a little corny, so I will need to go in and edit that.  I actually really like the color scheme that was chosen, the look of all the cards, etc., so at this point, it's just a matter of going in and making sure that the contnt is good, that all links work, etc.
 
